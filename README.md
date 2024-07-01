@@ -1,8 +1,8 @@
-# Site da Candidatura de Ludmilla Rosa - Vereadora por Goiânia
+## Site da Candidatura de Ludmilla Rosa - Vereadora por Goiânia
 
 Este repositório contém o código-fonte do site oficial da candidatura de Ludmilla Rosa ao cargo de vereadora por Goiânia. O site visa apresentar sua plataforma política, propostas, histórico e formas de contato.
 
-## Recursos e Tecnologias 
+### Recursos e Tecnologias 
 Recursos e tecnologias a serem utilizados no projeto. 
 
 - **HTML5**
@@ -11,6 +11,6 @@ Recursos e tecnologias a serem utilizados no projeto.
 - **Bootstrap** para o design responsivo
 - **PHP** para funcionalidades dinâmicas (opcional, se aplicável)
 
-## Contato
+### Contato
 
 Para mais informações referente ao site, entre em contato pelo email: vinisoarescastro@gmail.com.
