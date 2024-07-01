@@ -13,6 +13,7 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100%;                       /* altura total da viewport */
+    flex-direction: column;
 }
 
 .principal {
@@ -22,6 +23,12 @@ html, body {
     max-width: 350px;
     text-align: center;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.4);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 img {
