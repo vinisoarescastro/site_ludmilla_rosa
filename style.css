@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;                          /* remova as margens padrão */
+    padding: 0;                         /* remova o preenchimento padrão */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;                       /* altura total da viewport */
+}
+
+.principal {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.4);
+}
+
+img {
+    width: 200px;
+}
