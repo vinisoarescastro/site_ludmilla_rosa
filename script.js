@@ -30,5 +30,5 @@ function horas() {                                  // função que mostra as ho
     msg.innerHTML = `<strong> Horário atual: ${horaFormatada}.</strong>`;            // adiciona a hora formatada ao elemento p com o format string
 }
 
-setInterval(backgroundColor, 2000);                           // chama a função backgroundColor a cada 2 segundos
+setInterval(backgroundColor, 1000);                           // chama a função backgroundColor a cada 2 segundos
 setInterval(horas, 1000);                                     // chama a função horas a cada 1 segundo
