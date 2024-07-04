@@ -14,6 +14,7 @@ html, body {
     align-items: center;
     height: 100%;                       /* altura total da viewport */
     flex-direction: column;
+    max-width: 400px;
 }
 
 .principal {
