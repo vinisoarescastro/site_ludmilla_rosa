@@ -47,37 +47,25 @@ h2, p {
     text-align: center;
     box-shadow: 10px 9px 20px 0px rgba(0, 0, 0, 0.4);
 }
-
-div.secundario a {
+div.acesso-manutencao {
     display: flex;
-    padding: 5px;
-
-    text-decoration: none;
-    justify-content: center;
-}
-
-div.secundario {
-    width: 100%;
-    max-width: 350px;
-    min-width: 300px;
-    margin: 10px 0px 5px 0px;
-
+    flex-direction: row;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
     border-radius: 15px;
 
-    background-color: #000;
-    box-shadow: 10px 9px 20px 0px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+
+    background-color: var(--cor-black);
+    color: var(--cor-write);
 }
 
-div.secundario a {
-    color: var(--cor-principal);
+div.acesso-manutencao p {
+    margin: 0px 10px
 }
 
-.secundario i {
-    margin: 5px;
-}
-
-.secundario p {
-    margin: 5px;
+div.acesso-manutencao i {
+    margin: 0px 10px
 }
 
 div.footer a {
@@ -87,7 +75,7 @@ div.footer a {
 }
 
 div.footer p {
-    margin: 0;
+    margin: 10px 0px;
 }
 
 img {
