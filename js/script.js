@@ -10,6 +10,10 @@ function carregar() {
 }
 
 function backgroundColor() {
+    let elemento = document.querySelector('p.horas');
+    if (elemento) {
+        elemento.style.backgroundColor = carregar();
+    }
     document.body.style.background = carregar();    // chama a função carregar e atribui a cor gerada a cor de fundo
 }
 

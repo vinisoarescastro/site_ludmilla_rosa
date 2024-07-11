@@ -29,6 +29,21 @@ h2, p {
     margin: 10px;
 }
 
+p.horas {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+    justify-content: center;
+
+
+    color: var(--cor-black);
+    box-shadow: 10px 9px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
 .container {
     display: flex;
     height: 100%;                       /* altura total da viewport */
@@ -51,7 +66,7 @@ h2, p {
 div.acesso-manutencao {
     display: flex;
     flex-direction: row;
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     padding: 10px;
     border-radius: 15px;
 
