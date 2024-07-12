@@ -122,6 +122,11 @@ div.footer a {
 
 div.footer p {
     margin: 10px 0px;
+    color: var(--cor-write);
+}
+
+div.footer p a {
+    color: var(--cor-write);
 }
 
 img {
