@@ -23,6 +23,7 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-principal);
 }
 
 h2, p {

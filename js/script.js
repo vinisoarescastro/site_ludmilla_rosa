@@ -14,7 +14,7 @@ function backgroundColor() {
     if (elemento) {
         elemento.style.backgroundColor = carregar();
     }
-    document.body.style.background = carregar();    // chama a função carregar e atribui a cor gerada a cor de fundo
+//    document.body.style.background = carregar();    // chama a função carregar e atribui a cor gerada a cor de fundo
 }
 
 function horas() {                                  // função que mostra as horas
