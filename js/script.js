@@ -1,4 +1,4 @@
-function carregar() {                               
+/* function carregar() {                               
     let letrasAleatorias = '0123456789ABCDEF';      // seleciona as letras e números que serão usados para gerar a cor
     let cor = '#';                 
 
@@ -8,11 +8,27 @@ function carregar() {
 
     return cor;
 }
+*/
+
+function corClara() {
+    const r = Math.floor(Math.random() * 106) + 150;
+    const g = Math.floor(Math.random() * 106) + 150;
+    const b = Math.floor(Math.random() * 106) + 150;
+
+    // Converte os valores RGB para o formato hexadecimal
+    const rgbToHex = (r, g, b) => {
+        const toHex = (n) => n.toString(16).padStart(2, '0');
+        return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+    };
+
+    return rgbToHex(r, g, b);
+}
+
 
 function backgroundColor() {
     let elemento = document.querySelector('p.horas');
     if (elemento) {
-        elemento.style.backgroundColor = carregar();
+        elemento.style.backgroundColor = corClara();
     }
 //    document.body.style.background = carregar();    // chama a função carregar e atribui a cor gerada a cor de fundo
 }
