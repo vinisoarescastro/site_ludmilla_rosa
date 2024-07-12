@@ -1,3 +1,5 @@
+// ==================================== Função carregar - cores aleatorias. ==================================== // 
+
 /* function carregar() {                               
     let letrasAleatorias = '0123456789ABCDEF';      // seleciona as letras e números que serão usados para gerar a cor
     let cor = '#';                 
@@ -9,6 +11,8 @@
     return cor;
 }
 */
+
+// ==================================== Função carregar - cor clara.  ==================================== // 
 
 function corClara() {
     const r = Math.floor(Math.random() * 106) + 150;
@@ -24,6 +28,7 @@ function corClara() {
     return rgbToHex(r, g, b);
 }
 
+// ==================================== Horário Atual do Computador ==================================== // 
 
 function backgroundColor() {
     let elemento = document.querySelector('p.horas');
@@ -50,18 +55,18 @@ function horas() {                                  // função que mostra as ho
     msg.innerHTML = `<strong> Horário atual: ${horaFormatada}.</strong>`;            // adiciona a hora formatada ao elemento p com o format string
 }
 
-// ================================================================================================================// 
+// ==================================== Data de atualização ==================================== // 
 
 document.addEventListener("DOMContentLoaded", function() {
-    const user = 'vinisoarescastro';                // Substitua pelo nome do usuário ou organização
-    const repo = 'site_ludmilla_rosa';               // Substitua pelo nome do repositório
+    const user = 'vinisoarescastro'; // Substitua pelo nome do usuário ou organização
+    const repo = 'site_ludmilla_rosa'; // Substitua pelo nome do repositório
     const url = `https://api.github.com/repos/${user}/${repo}`;
   
     fetch(url)
       .then(response => response.json())
       .then(data => {
         const lastUpdated = new Date(data.updated_at);
-        document.getElementById('last-updated').textContent = lastUpdated.toLocaleString();
+        document.getElementById('last-updated').textContent = lastUpdated.toLocaleDateString();
       })
       .catch(error => {
         console.error('Erro ao buscar a data de atualização:', error);
@@ -69,6 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
 
-
+// =============================== Recarregar funções de segundos em segundos =============================== // 
+  
 setInterval(backgroundColor, 1000);                           // chama a função backgroundColor a cada 1 segundos
 setInterval(horas, 1000);                                     // chama a função horas a cada 1 segundo
