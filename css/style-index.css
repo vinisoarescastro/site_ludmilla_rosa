@@ -61,7 +61,7 @@ p.horas {
 .principal {
     background-color: #fff;
     border-radius: 25px;
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
     text-align: center;
     box-shadow: 10px 9px 20px 0px rgba(0, 0, 0, 0.4);
 }
@@ -107,6 +107,10 @@ div.acesso-manutencao-1 p {
 
 div.acesso-manutencao-1 i {
     margin: 0px 10px
+}
+
+p#atualizacao {
+    margin-top: 20px;
 }
 
 div.footer a {

@@ -50,5 +50,25 @@ function horas() {                                  // função que mostra as ho
     msg.innerHTML = `<strong> Horário atual: ${horaFormatada}.</strong>`;            // adiciona a hora formatada ao elemento p com o format string
 }
 
+// ================================================================================================================// 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const user = 'vinisoarescastro';                // Substitua pelo nome do usuário ou organização
+    const repo = 'site_ludmilla_rosa';               // Substitua pelo nome do repositório
+    const url = `https://api.github.com/repos/${user}/${repo}`;
+  
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const lastUpdated = new Date(data.updated_at);
+        document.getElementById('last-updated').textContent = lastUpdated.toLocaleString();
+      })
+      .catch(error => {
+        console.error('Erro ao buscar a data de atualização:', error);
+        document.getElementById('last-updated').textContent = 'Erro ao carregar a data';
+      });
+  });
+
+
 setInterval(backgroundColor, 1000);                           // chama a função backgroundColor a cada 1 segundos
 setInterval(horas, 1000);                                     // chama a função horas a cada 1 segundo
