@@ -58,6 +58,10 @@ p.horas {
     flex-direction: column;
 }
 
+.container .principal img {
+    max-width: 150px;
+}
+
 .principal {
     background-color: #fff;
     border-radius: 25px;
