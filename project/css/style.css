@@ -1,5 +1,7 @@
 :root {
     --color-principal: #e24894;
+    --color-secundaria: #18182f;
+    --color-terciaria: #f9f8f8;
     --color-write: #fff;
     --color-black: #000;
     --black: #13131a;
@@ -15,7 +17,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f9f9f9;
 }
 
 .interface {
@@ -76,6 +78,7 @@ header .menu-desktop nav ul li a {
     transform: scale(1.1);
     transition: 0.2s;
     color: var(--color-principal);
+    font-weight: bold;
 }
 
 header .btn-contato button {
@@ -86,6 +89,7 @@ header .btn-contato button {
 header .btn-contato button:hover, .hero-site button:hover {
     background-color: var(--color-principal);
     transition: 0.5s;
+    font-weight: bold;
 }
 
 /* Estilo do Hero */
@@ -127,3 +131,60 @@ section.hero-site {
     width: 220px;
     height: 60px;
 }
+
+/* Estilo do Minha história */
+
+section.minha-historia {
+    padding: 80px 0;
+}
+
+.minha-historia .txt-title h3{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.minha-historia .txt-title h3 span{
+    font-weight: 800;
+    color: var(--color-principal);
+}
+
+.minha-historia .itens-container {
+    display: flex;                  /* faz com que os itens fiquem em linha: flex-direction: row */
+    align-items: center;            /* alinha os itens no centro */
+    justify-content: space-between; /* alinha os itens no espaço entre eles */
+    gap: 10%;                       /* espaço entre os itens */
+    margin: 15px 0;
+}
+
+.minha-historia .itens-container .img-itens img {
+    max-width: 400px;
+}
+
+.minha-historia .itens-container .txt-itens h3 {
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.minha-historia .itens-container .txt-itens h3 span {
+    font-weight: 800;
+    color: var(--color-secundaria);
+}
+
+/* Estilo dos Contatos */
+
+section.contato {
+    background-color: var(--color-principal);
+    padding: 80px 0;
+}
+
+.txt-contato, .icons-contato {
+    display: inline-block;
+    width: 50%;
+    margin: -4px;
+}
+
+/* 
+    parei min 13:32
+    https://www.youtube.com/watch?v=a1Yxq6Y9xag&list=PLaLQ4gJXUd6DIULwr0hPbfhsWh4zY1EPo&index=6 
+*/
