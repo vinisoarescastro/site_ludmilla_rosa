@@ -39,6 +39,12 @@ section {
     background-color: var(--bg);
 }
 
+.header .section-logo {
+    background-color: var(--main-color);
+    width: 100%
+}
+
+
 .header section {
     display: flex;
     align-items: center;

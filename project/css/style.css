@@ -1,0 +1,129 @@
+:root {
+    --color-principal: #e24894;
+    --color-write: #fff;
+    --color-black: #000;
+    --black: #13131a;
+    --bg: #010103;
+    --bg-teste: #00ff40;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .btn-contato button, .hero-site button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Estilo do Header */
+
+header {
+    width: 100%;
+    padding: 40px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 120px;
+}
+
+header .logo img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+header .menu-desktop nav ul {
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+header .menu-desktop nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-desktop nav a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: var(--color-principal);
+}
+
+header .btn-contato button {
+    width: 140px;
+    height: 50px;
+}
+
+header .btn-contato button:hover, .hero-site button:hover {
+    background-color: var(--color-principal);
+    transition: 0.5s;
+}
+
+/* Estilo do Hero */
+
+section.hero-site {
+    height: 98vh;
+    background-image: url("../img/bg-inicio-site.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--color-write);
+}
+
+.hero-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.hero-site .txt-hero p {
+    max-width: 50%;             /* 50% do tamanho da tela */
+    margin: 20px 0;
+    font-size: 20px;            /* Tamanho da fonte */
+    font-weight: 300;           /* Peso da fonte */
+}
+
+.hero-site button {
+    width: 220px;
+    height: 60px;
+}
