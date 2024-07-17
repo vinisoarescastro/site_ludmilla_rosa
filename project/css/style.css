@@ -11,6 +11,7 @@
     --black: #13131a;
     --bg: #010103;
     --bg-teste: #00ff40;
+    --gradiente: linear-gradient(to right, #e24894, #000)
 }
 
 * {
@@ -87,11 +88,12 @@ header .menu-desktop nav ul li a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
+    font-size: 1.2em;
 }
 
 .menu-desktop nav a:hover {
     transform: scale(1.1);
-    transition: 0.2s;
+    transition: 0.3s;
     color: var(--color-principal);
     font-weight: bold;
 }
