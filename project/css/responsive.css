@@ -1,0 +1,284 @@
+@media screen and (max-width: 900px) {
+    header .menu-desktop, header .btn-contato {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    :root {
+        --color-principal: #e24894;
+        --color-secundaria: #18182f;
+        --color-terciaria: #f9f8f8;
+        --color-write: #fff;
+        --color-black: #000;
+        --black: #13131a;
+        --bg: #010103;
+        --bg-teste: #00ff40;
+        --gradiente: linear-gradient(to right, #e24894, #000)
+    }
+
+    .interface {
+        margin: 0 10px;
+    }
+    
+    /******************************
+    *  Responsividade do header   *
+    *******************************/
+
+    header {
+        width: 100%;        /* Largura do elemento */
+        padding: 20px 0px;  /* Espaçamento interno do elemento */
+        position: fixed;    /* Faz com que o elemento fique fixo na tela */
+        top: 0;             /* Distância do topo */
+        left: 0;            /* Distância da esquerda */
+
+        transition: 1s;
+        z-index: 1000;      /* faz com que o elemento fique acima de todos os outros elementos */
+    }
+
+    header .interface {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .logo img {
+        max-width: 120px;
+    }
+
+
+   /******************************
+    *  Responsividade do hero    *
+    ******************************/
+
+    section.hero-site {
+        height: 100vh;
+        background-image: url("../img/media-649-bg-lud.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: var(--color-write);
+    }
+    
+    .hero-site .interface {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .hero-site .txt-hero h1 {
+        font-size: 2.5em;
+        line-height: 45px;
+        font-weight: 200;
+        margin: 0 10px;
+    }
+    
+    .hero-site .txt-hero h1 span {
+        display: block;
+        font-weight: 800;
+    }
+    
+    .hero-site .txt-hero p {
+        font-size: 22px;
+        max-width: 80%;             /* 50% do tamanho da tela */
+        margin: 20px 10px;
+    }
+    
+    .hero-site button {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+
+    /**************************************
+    *  Responsividade do minha historia   *
+    ***************************************/
+
+    section.minha-historia {
+        padding: 80px 0;
+    }
+    
+    .minha-historia .txt-title h3{
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .minha-historia .txt-title h3 span{
+        font-weight: 800;
+        color: var(--color-principal);
+    }
+    
+    .minha-historia .itens-container {
+        flex-direction: column;
+    }
+    
+    .minha-historia .itens-container .img-itens img {
+        width: 100%;
+    }
+
+    .minha-historia .itens-container .txt-itens p, 
+    .minha-historia .itens-container .txt-itens h3 {
+        margin: 20px 10px;
+    }
+    
+    .minha-historia .itens-container .item-1 {
+        order: 1;
+    }
+    
+    .minha-historia .itens-container .item-2 {
+        order: 0;
+    }
+
+
+    /**************************************
+    *  Responsividade dos contatos        *
+    ***************************************/
+    
+    .txt-contato, .icons-contato {
+        display: block;
+        width: 100%;
+    }
+    
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 35px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .contato .txt-contato h3 span{
+        display: block;
+        font-weight: 800;
+    }
+    
+    .contato .txt-contato p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    
+    .contato .icons-contato button {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+
+    /**************************************
+    *  Responsividade dos ajude-nos       *
+    ***************************************/
+    
+    section.ajude-nos {
+    height: 800px;
+}
+
+    .ajude-nos h3 {
+        font-size: 100px
+    }
+
+    .ajude-nos h3 span{
+        display: block;
+        font-weight: 800;
+    }
+
+    .ajude-nos p {
+        font-size: 14px;
+        
+        width: 80%;
+    }
+
+    .ajude-nos button {
+        width: 220px;
+        height: 60px;
+    }
+    
+    .ajude-nos > .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #000000a8;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    
+    .ajude-nos > .interface {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        z-index: 2;
+        position: relative;
+    }
+    
+    .ajude-nos h3 {
+        font-size: 3em;
+        line-height: 50px;
+        font-weight: 300;
+    }
+    
+    .ajude-nos h3 span{
+        display: block;
+        font-weight: 800;
+    }
+    
+    .ajude-nos p {
+        width: 80%;
+    }
+    
+    .ajude-nos button {
+        width: 220px;
+        height: 60px;
+    }
+
+
+    /**************************************
+    *  Responsividade das propostas       *
+    ***************************************/
+    
+    .txt-propostas, .propostas-box {
+        display: block;
+        width: 100%;
+    }
+    
+    .propostas .txt-propostas {
+        position: static;
+    }
+    
+    .propostas .txt-propostas h3 {
+        font-size: 2.5em;
+        line-height: 40px;
+    
+        font-weight: 300;
+    }
+    
+    .propostas-box .itens-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .propostas-box .itens-box .img-itens-box img {
+        max-width: 100px;
+    
+    }
+    
+    .propostas-box .itens-box h4 {
+        font-size: 20px;
+        font-weight: 800;
+    
+        margin-bottom: 10px;
+    }
+    
+    .propostas-box .itens-box h4 span{
+        font-weight: 300;
+    }
+    
+    .propostas-box .itens-box p{
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    
+}

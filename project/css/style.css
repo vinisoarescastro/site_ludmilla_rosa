@@ -28,6 +28,7 @@ body {
 .interface { /* Centraliza o conteúdo da página */
     max-width: 1280px;  
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 header .btn-contato button, .hero-site button, .ajude-nos button {
@@ -177,7 +178,7 @@ section.hero-site {
 }
 
 .hero-site .txt-hero p {
-    max-width: 50%;             /* 50% do tamanho da tela */
+    max-width: 80%;             /* 50% do tamanho da tela */
     margin: 20px 0;
     font-size: 20px;            /* Tamanho da fonte */
     font-weight: 300;           /* Peso da fonte */
