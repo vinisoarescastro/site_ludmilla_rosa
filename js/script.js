@@ -78,3 +78,4 @@ document.addEventListener("DOMContentLoaded", function() {
   
 setInterval(backgroundColor, 1000);                           // chama a função backgroundColor a cada 1 segundos
 setInterval(horas, 1000);                                     // chama a função horas a cada 1 segundo
+

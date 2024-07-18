@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
 :root {
@@ -17,14 +17,10 @@
 }
 
 html, body {
-    height: 100%;
-    margin: 0;                          /* remova as margens padrão */
-    padding: 0;                         /* remova o preenchimento padrão */
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor-principal-escura) !important;
+    background-color: var(--cor-principal-escura);
 }
 
 h2 {
@@ -39,16 +35,12 @@ p {
 
 p.horas {
     display: flex;
-    flex-direction: row;
-    margin: 20px 0px 0px 0px;
     padding: 10px;
     border-radius: 15px;
     border: 2px solid black;
 
     justify-content: center;
 
-
-    color: var(--cor-black);
     box-shadow: 10px 9px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -56,17 +48,25 @@ p.horas {
     display: flex;
     height: 100vh;                       
     width: 100%;
-    min-width: 300px;
+
     max-width: 350px;
 
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .container .principal img {
     max-width: 150px;
 }
+
+/***************************************
+***         Style Paralisado          **
+****************************************/
+
+/* Não se aplica no momento */
+
+/***************************************/
 
 .principal {
     background-color: #fff;
@@ -131,12 +131,20 @@ div.footer a {
 }
 
 div.footer p {
-    margin: 10px 0px;
+    margin: 20px 0px;
     color: var(--cor-write);
 }
 
 div.footer p a {
     color: var(--cor-write);
+}
+
+div.footer p a:hover {
+    font-weight: bold;
+    color: var(--cor-principal-escura);
+    background-color: var(--cor-write);
+    border-radius: 5px;
+    padding: 5px;
 }
 
 img {
