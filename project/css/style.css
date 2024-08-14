@@ -32,7 +32,7 @@ body {
 }
 
 header .btn-contato button, .hero-site button, .ajude-nos button {
-    font-size: 18px;
+    font-size: 16px;
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
@@ -71,7 +71,7 @@ header .interface {
 }
 
 header .logo img {
-    max-width: 120px;
+    max-width: 100px;
 }
 
 /***************************?
@@ -131,7 +131,7 @@ header .menu-desktop nav ul li a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .menu-desktop nav a:hover {
@@ -254,11 +254,16 @@ body.no-overflow {
 
 section.hero-site {
     height: 98vh;
-    background-image: url("../img/bg-inicio-site.jpg");
+    background-image: url("../img/hero-bg-opacity60.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: var(--color-write);
+}
+
+.hero-site .interface .img-hero img {
+    max-width: 450px;
+    align-items: center;
 }
 
 .hero-site .interface {
@@ -268,9 +273,9 @@ section.hero-site {
 }
 
 .hero-site .txt-hero h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     line-height: 70px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .hero-site .txt-hero h1 span {
