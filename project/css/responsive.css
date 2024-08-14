@@ -57,7 +57,7 @@
 
     section.hero-site {
         height: 100vh;
-        background-image: url("../img/media-649-bg-lud.png");
+        background-image: url("/img/hero-bg-opacity60.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
