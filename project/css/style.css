@@ -239,7 +239,7 @@ body.no-overflow {
 
 section.hero-site {
     height: 80vh;
-    background-image: url("../img/hero-bg-opacity30.png");
+    background-image: url("../img/hero-bg-opacity15.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -261,16 +261,21 @@ section.hero-site {
     font-family: Heaters;
     font-size: 6em;
     font-weight: 400;
+    line-height: 0.6;
+
+    padding: 20px 0;
+
     color: var(--color-principal);
 }
 
 .hero-site .txt-hero p {
+    font-family: Panton;
+
     max-width: 80%;             /* 50% do tamanho da tela */
     margin: 0px 0px;
     font-size: 22px;            /* Tamanho da fonte */
-    font-weight: 500;           /* Peso da fonte */
+    font-weight: 700;           /* Peso da fonte */
     color: var(--color-black);
-    text-shadow: 2px 4px 4px rgba(255, 255, 255, 0.845); /* Sombra branca com leve transparência */
 }
 
 .hero-site button {
