@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: Heaters;
-    src: url(../fonts/Heaters.otf) format("opentype");
+    src: url(../fonts/Heaters.woff) format("woff");
 }
 
 @font-face {
     font-family: Panton;
-    src: url(../fonts/Panton.otf) format("opentype");
+    src: url(../fonts/Panton.woff) format("woff");
 }
 
 :root {
