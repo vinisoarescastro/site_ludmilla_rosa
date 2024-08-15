@@ -73,6 +73,24 @@ header .btn-contato button:hover, .hero-site button:hover, .ajude-nos button:hov
     transition: 0.4s;
 }
 
+.minha-historia button {
+    background-image: var(--gradiente);
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 500;
+    font-family: Panton;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.minha-historia button:hover {
+    background-image: var(--gradiente2);
+    font-weight: 800;
+    transition: 0.5s;
+}
+
 
 /*********************** 
 *  Estilo dos Header   *
@@ -296,8 +314,8 @@ section.minha-historia {
     font-family: Panton;
     font-size: 2em;
     text-align: center;
-
 }
+
 .minha-historia .txt-title h3 span{
     font-weight: 800;
     color: var(--color-principal);
@@ -429,18 +447,23 @@ section.contato {
 }
 
 .contato .txt-contato h3 {
+    font-family: Panton;
     font-size: 2.5em;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 100;
     margin-bottom: 20px;
 }
 
-.contato .txt-contato h3 span{
+.contato .txt-contato h3 span {
+    font-family: Heaters;
     display: block;
-    font-weight: 800;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 50px;
 }
 
 .contato .txt-contato p {
+    font-family: Panton;
     font-size: 18px;
 }
 
@@ -484,6 +507,7 @@ section.contato {
 }
 
 .contato .icons-contato button p {
+    font-family: Panton;
     font-size: 18px;
 }
 
