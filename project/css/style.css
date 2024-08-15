@@ -292,9 +292,11 @@ section.minha-historia {
 }
 
 .minha-historia .txt-title h3{
+    display: none;              /* Faz com que o elemento não apareça na tela */
+    font-family: Panton;
     font-size: 2em;
     text-align: center;
-    margin-bottom: 50px;
+
 }
 .minha-historia .txt-title h3 span{
     font-weight: 800;
@@ -306,22 +308,37 @@ section.minha-historia {
     align-items: center;            /* alinha os itens no centro */
     justify-content: space-between; /* alinha os itens no espaço entre eles */
     gap: 10%;                       /* espaço entre os itens */
-    margin: 15px 0;
+    margin: 20px 0;
+}
+
+.minha-historia .itens-container .txt-itens {
+    margin: 20px 0;
 }
 
 .minha-historia .itens-container .img-itens img {
     max-width: 400px;
+    max-height: 500px;
 }
 
 .minha-historia .itens-container .txt-itens h3 {
-    font-size: 3em;
-    line-height: 50px;
-    font-weight: 300;
+    font-family: Panton;    /* Fonte da família */
+    font-size: 2em;         /* Tamanho da fonte */
+    font-weight: 800;       /* Peso da fonte */
+    line-height: 50px;      /* Espaçamento entre as linhas */
 }
 
 .minha-historia .itens-container .txt-itens h3 span {
-    font-weight: 800;
-    color: var(--color-secundaria);
+    font-family: Heaters;
+    font-size: 90px;
+    font-weight: 400;
+    color: var(--color-principal);
+}
+
+.minha-historia .itens-container .txt-itens p {
+    font-family: Panton;
+    font-size: 18px;
+
+    padding-top: 15px;
 }
 
 
@@ -365,18 +382,22 @@ section.ajude-nos {
 }
 
 .ajude-nos h3 {
+    font-family: Panton;
     font-size: 3em;
     line-height: 50px;
     font-weight: 300;
 }
 
 .ajude-nos h3 span{
+    font-family: Heaters;
+
     display: block;
-    font-weight: 800;
+    font-weight: 400;
+    font-size: 90px;
 }
 
 .ajude-nos p {
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 20px;
     
     width: 80%;
@@ -385,6 +406,7 @@ section.ajude-nos {
 .ajude-nos button {
     width: 220px;
     height: 60px;
+    background-image: var(--gradiente);
 }
 
 
@@ -394,7 +416,7 @@ section.ajude-nos {
 
 
 section.contato {
-    background-image: linear-gradient(to right, #e24894, #000);
+    background-image: var(--gradiente);
     padding: 80px 0;
 }
 
