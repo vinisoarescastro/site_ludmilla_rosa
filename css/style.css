@@ -303,7 +303,7 @@ section.hero-site {
     font-size: 22px;            /* Tamanho da fonte */
     font-weight: 700;           /* Peso da fonte */
 
-    min-width: 400px;
+    min-width: 300px;
     max-width: 100%;             /* 50% do tamanho da tela */
     margin-bottom: 20px;        /* Espaçamento inferior */
     color: var(--color-black);
@@ -390,12 +390,12 @@ section.ajude-nos {
     height: 500px;
 
     background-image: url("../img/estacao-ferroviaria-goiania-1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;    /* Posição da imagem */
+    background-size: cover;         /* Tamanho da imagem. cover: cobre todo o elemento */
+    background-repeat: no-repeat;   /* Repetição da imagem */
+    background-attachment: fixed;   /* Faz com que a imagem fique fixa */
 
-    position: relative;
+    position: relative;             /* Faz com que o elemento fique relativo a página */
 
     color: var(--color-write);
     text-align: center;

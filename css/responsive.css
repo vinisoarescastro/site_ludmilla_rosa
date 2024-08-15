@@ -80,15 +80,13 @@
 
 
 
-
-
    /******************************
     *  Responsividade do hero    *
     ******************************/
 
     section.hero-site {
         height: 100vh;
-        background-image: url("/img/hero-bg-opacity15.png");
+        background-image: url("../img/hero-bg-opacity15.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -122,11 +120,12 @@
         font-weight: 200;
         margin: 0 10px;
     }
-    
+
     .hero-site .txt-hero p {
         text-align: center;
         font-size: 22px;
-        max-width: 80%;             /* 50% do tamanho da tela */
+        width: 100%;
+        padding: 10px 20px;
         margin: 20px 10px;
     }
     
@@ -220,7 +219,7 @@
     ***************************************/
     
     section.ajude-nos {
-    height: 800px;
+    height: 700px;
     }
 
     .ajude-nos h3 {
