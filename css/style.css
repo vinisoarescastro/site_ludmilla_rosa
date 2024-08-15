@@ -299,7 +299,8 @@ section.hero-site {
     font-size: 22px;            /* Tamanho da fonte */
     font-weight: 700;           /* Peso da fonte */
 
-    max-width: 80%;             /* 50% do tamanho da tela */
+    min-width: 400px;
+    max-width: 100%;             /* 50% do tamanho da tela */
     margin-bottom: 20px;        /* Espaçamento inferior */
     color: var(--color-black);
 }
