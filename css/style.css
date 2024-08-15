@@ -333,6 +333,38 @@ section.minha-historia {
     margin: 20px 0;
 }
 
+.minha-historia .itens-container .txt-itens.item-1 p {
+    margin-right: 20px;
+}
+
+.minha-historia .itens-container .txt-itens.item-1 {
+    max-height: 500px; /* Defina a altura máxima desejada */
+    overflow-y: auto; /* Adiciona a barra de rolagem vertical quando necessário */
+}
+
+/* Personalização da barra de rolagem para o elemento específico */
+.txt-itens.item-1::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+    height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Estilo do trilho da barra de rolagem */
+.txt-itens.item-1::-webkit-scrollbar-track {
+    background: #fdd7ea; /* Cor do fundo do trilho */
+    border-radius: 10px; /* Bordas arredondadas do trilho */
+}
+
+/* Estilo da parte da barra de rolagem que se move (o "thumb") */
+.txt-itens.item-1::-webkit-scrollbar-thumb {
+    background: #e24893; /* Cor da parte movível da barra de rolagem */
+    border-radius: 10px; /* Bordas arredondadas do "thumb" */
+}
+
+/* Estilo da parte da barra de rolagem que se move quando o usuário passa o mouse sobre ela */
+.txt-itens.item-1::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor da parte movível ao passar o mouse */
+}
+
 .minha-historia .itens-container .img-itens img {
     max-width: 400px;
     max-height: 500px;
