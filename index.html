@@ -3,64 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logo-ludmilla-rosa.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css" media="screen">
 
-    <!-- Icons FontAwesome -->
-    <script src="https://kit.fontawesome.com/6755e80c36.js" crossorigin="anonymous"></script>
-    <!-- /Icons FontAwesome -->
+    <!-- Google Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- /Google Fontes -->
 
-    <link rel="stylesheet" href="style.css">
- 
-    <!-- Scrips -->
-    <script src="js/script.js" defer></script>
-    <!-- /Scrips -->
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- /Bootstrap icons -->
 
-    <title>Ludmilla Rosa</title>
+    <!-- Scripts de JS -->
+    <!-- <script src="js/menu.js" defer></script> --> 
+    <script src="js/btn-menu-mob" defer></script> <!-- defer faz com que o script seja carregado após o carregamento da página -->
+    <!-- /Scripts de JS -->
+
+    <title>Ludmila Rosa</title>
 </head>
 <body>
 
-    <div class="container">
+    <header id="header">
+
+        <div class="interface">
+
+            <section class="logo">
+                <img class="logo-branco" src="img/logo-sem-numero/Logo NOVA_LR2024_Hori_Branco.png" alt="logo-ludmila">
+            </section>
+
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#minha-historia">Minha história</a></li>
+                        <li><a href="#propostas">Propostas</a></li>
+                        <li><a href="#ajude-nos">Ajude-nos</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </section>
+
+            <div class="btn-menu-mob" id="btn-menu-mob">
+                <div class="line-menumob-1"></div>
+                <div class="line-menumob-2"></div>
+            </div>
+
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#minha-historia">Minha história</a></li>
+                        <li><a href="#propostas">Propostas</a></li>
+                        <li><a href="#ajude-nos">Ajude-nos</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
+
+    </header>
+
+    <section class="hero-site" id="inicio">
+
+        <div class="interface">
+
+            <div class="img-hero">
+                <img src="img/fotos-lud/lud3.png" alt="Ludmila com Gael">
+            </div>
+
+            <div class="txt-hero">
+                <p>Política deve ser feita por pessoas comuns, como eu e você. Não por quem simplesmente herda um sobrenome ou uma herança, mas por quem <strong>CONSTRÓI</strong> uma trajetória com honra, coragem, senso de responsablidade e justiça.</p>
+                <h1>Venha nessa jornada comigo!</h1>
+                <a href="#"><button>Vamos nessa!</button></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="minha-historia" id="minha-historia">
+
+        <div class="interface">
+
+            <div class="txt-title">
+                <h3>Minha <span>história</span></h3>
+            </div>
+
+            <article class="itens-container">
+
+                <div class="img-itens item-2">
+                    <img src="/img/fotos-lud/lud1.png" alt="banner-minha-historia">
+                </div>
+
+                <div class="txt-itens item-1">
+                    <h3>Quem é <span><br>Ludmila Rosa</span>?</h3>
+                    <p>Nascida em Posse, filha de mãe solo, enfrentou os desafios de ser uma criança com transtorno de déficit de atenção (TDHA) em um ensino pouco inclusivo, da década de 1990. A hiperatividade a levou a se tornar atleta estudantil, reconhecida regionalmente e líder escolar. Mudou para Goiânia, com 15 anos, para estudar, onde chegou a dormir por dias em um dos quartos da Casa de Hospedagem do SINTEGO – Sindicato dos Trabalhadores em Educação do Estado de Goiás.</p>
+                    <p>Obstinada e certa de que a educação é o caminho para enfrentar as desigualdades, cursou Ciência Política na UnB, onde se formou. Escolheu Goiânia para viver e hoje é Bacharel em Direito pela UFG. Também buscou diversas outras formações, com o objetivo de fazer da política um objeto de transformação, usando o aprendizado para servir e melhorar a vida das pessoas.</p>
+                    <p>Fez cursos de formação e capacitação voltados para a política e a gestão pública. Buscou preparação para hoje, com muita responsabilidade e respeito, para se colocar como pré-candidata a vereadora por Goiânia.</p>
+                </div>
+
+            </article>
+
+            <article class="itens-container">
+
+                <div class="txt-itens">
+                    <h3>Quem é <span><br>Ludmila Rosa</span>?</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, illo assumenda doloribus cumque in quibusdam deserunt ullam dolorum id rem est neque optio, obcaecati consequuntur ea provident. Iure, rem minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda, necessitatibus veritatis sequi vero dicta nemo aut quidem perspiciatis numquam voluptates iure laboriosam in eaque sapiente rerum ex exercitationem adipisci.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam ducimus aperiam, deleniti odit sed quas, ratione illum error harum deserunt nisi laborum exercitationem dolores dolorem saepe atque magni! Praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque accusamus cupiditate quasi illo vel incidunt laboriosam id facere, repellendus modi error, harum officia laborum eum earum molestias ipsam fugiat.</p>
+                </div>
+
+                <div class="img-itens">
+                    <img src="./img/banner-minha-historia-lud.png" alt="banner-minha-historia">
+                </div>
+
+            </article>
+
+            <article class="itens-container">
+
+                <div class="img-itens item-2">
+                    <img src="./img/banner-minha-historia-lud.png" alt="banner-minha-historia">
+                </div>
+
+                <div class="txt-itens item-1">
+                    <h3>Quem é <span><br>Ludmila Rosa</span>?</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, illo assumenda doloribus cumque in quibusdam deserunt ullam dolorum id rem est neque optio, obcaecati consequuntur ea provident. Iure, rem minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda, necessitatibus veritatis sequi vero dicta nemo aut quidem perspiciatis numquam voluptates iure laboriosam in eaque sapiente rerum ex exercitationem adipisci.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam ducimus aperiam, deleniti odit sed quas, ratione illum error harum deserunt nisi laborum exercitationem dolores dolorem saepe atque magni! Praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque accusamus cupiditate quasi illo vel incidunt laboriosam id facere, repellendus modi error, harum officia laborum eum earum molestias ipsam fugiat.</p>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="ajude-nos" id="ajude-nos">
+
+        <div class="interface">
+
+            <h3>Doe para <span>Mudar Goiânia!</span></h3>
+            <p>A mudança começa com você! Apoie Ludmilla Rosa para vereadora e ajude a transformar Goiânia. Sua doação é o combustível para uma campanha que luta por igualdade, justiça e oportunidades para todos.</p>
+            <p>Cada contribuição conta! Junte-se a nós e faça parte dessa revolução. Doe agora e vamos construir uma Goiânia mais forte e inclusiva, juntos!</p>
+
+            <a href="#">
+                <button>Doe Agora</button>
+            </a>
+
+        </div>
+
+        <div class="overlay"></div>
+
+    </section>
+    
+    <section class="propostas" id="propostas">
+
+        <div class="interface">
+
+            <div class="txt-propostas">
+                <h3>Minhas <span>propostas:</span></h3>
+            </div>
+
+            <div class="propostas-box">
+
+                <article class="itens-box">
+
+                    <div class="img-itens-box">
+                        <img src="img/img-teste.png" alt="">
+                    </div>
+
+                    <div class="txt-itens-box">
+                        <h4>Proposta <span>teste 1</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consectetur soluta tempore sequi delectus aperiam sapiente ullam, facilis eius ea voluptatibus voluptatum eaque asperiores sint incidunt! Nesciunt assumenda enim reprehenderit?</p>
+                    </div>
+
+                </article>
+
+                <article class="itens-box">
+
+                    <div class="img-itens-box">
+                        <img src="img/img-teste.png" alt="">
+                    </div>
+
+                    <div class="txt-itens-box">
+                        <h4>Proposta <span>teste 1</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consectetur soluta tempore sequi delectus aperiam sapiente ullam, facilis eius ea voluptatibus voluptatum eaque asperiores sint incidunt! Nesciunt assumenda enim reprehenderit?</p>
+                    </div>
+
+                </article>
+
+                <article class="itens-box">
+
+                    <div class="img-itens-box">
+                        <img src="img/img-teste.png" alt="">
+                    </div>
+
+                    <div class="txt-itens-box">
+                        <h4>Proposta <span>teste 1</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consectetur soluta tempore sequi delectus aperiam sapiente ullam, facilis eius ea voluptatibus voluptatum eaque asperiores sint incidunt! Nesciunt assumenda enim reprehenderit?</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
         
-        <div class="principal">
+    </section>
 
-            <img src="./project/img/logo-sem-numero/logo-principal-sem-margem.png" alt="logo-ludmila-rosa">
-            <!-- <h2>Vamos juntos contruir uma Goiânia melhor.</h2> -->
-            <p>Estamos temporariamente indisponível devido a manutenção. Estamos trabalhando para trazer novidades e melhorias.</p>
-            <p>Para mais informações: <strong>vinisoarescastro@gmail.com</strong></p>
-            <p class="horas">#horas#</p>
-            <a href="./project/index.html">
+    <section class="contato" id="contato">
 
-                <div class="acesso-manutencao">
+        <div class="interface">
 
-                        <i class="fa-solid fa-code"></i>
-                        <p>Acesse o site em construção</p>
+            <article class="txt-contato">
+                <h3>Fale agora com a <span>nossa equipe</span></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </article>
 
-                </div>
-
-            </a>
-
-            <a href="https://github.com/vinisoarescastro/site_ludmilla_rosa">
-
-                <div class="acesso-manutencao-1">
-
-                    <i class="fa-brands fa-github"></i>
-                    <p>Acesse o Repositório</p>
-
-                </div>
-
-            </a>
-
-            <p id="atualizacao">Última atualização do projeto:<br><strong><span id="last-updated">Carregando...</span></strong></p>
+            <article class="icons-contato">
+                <a href="#">
+                    <button><i class="bi bi-whatsapp"></i><p>Chamar no WhatsApp</p></button>
+                </a>
+                <a href="#">
+                    <button><i class="bi bi-envelope-fill"></i><p>Enviar email</p></button>
+                </a>
+                <a href="#">
+                    <button><i class="bi bi-telephone-fill"></i><p>Ligar</p></button>
+                </a>
+                <a href="#">
+                    <button><i class="bi bi-ui-checks"></i><p>Formulário</p></button>
+                </a>
+            </article>
 
         </div>
 
-        <div class="footer">
+    </section>
 
-            <p>Desenvolvido por <a href="https://www.instagram.com/vini.onze">@vini.onze</a></p>
+    <footer>
+
+        <div class="interface">
+
+            <section class="top-footer">
+                <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+            </section>
+
+            <section class="middle-footer">
+                <p>Desenvolvido por <a href="https://instagram.com/vini.onze" target="_blank">Vinicius Soares</a></p>
+            </section>
+
+            <section class="bottom-footer">
+                <p>Ludmila Rosa &copy; Todos os direitos reservados.</p>
+            </section>
 
         </div>
 
-    </div>
-
+    </footer>
 </body>
 </html>
