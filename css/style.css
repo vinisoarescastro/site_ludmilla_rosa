@@ -273,6 +273,10 @@ section.hero-site {
     max-width: 450px;       /* Largura máxima da imagem */
 }
 
+.hero-site .img-hero-mobile img {
+    display: none;
+}
+
 .hero-site .interface {
     display: flex;
     align-items: center;

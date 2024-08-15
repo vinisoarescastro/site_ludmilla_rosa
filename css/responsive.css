@@ -74,11 +74,17 @@
     }
 
     .hero-site .img-hero img {
+        display: none;
+    }
+
+    .hero-site .img-hero-mobile img {
+        display: block;
         max-width: 350px;
-        margin-top: 75px;
+        margin-top: 80px;
     }
     
     .hero-site .txt-hero h1 {
+        display: none;
         font-size: 4em;
         line-height: 45px;
         font-weight: 200;
@@ -91,12 +97,14 @@
     }
     
     .hero-site .txt-hero p {
+        text-align: center;
         font-size: 22px;
         max-width: 80%;             /* 50% do tamanho da tela */
         margin: 20px 10px;
     }
     
     .hero-site button {
+        display: none;
         font-size: 18px;
         margin: 10px;
     }
