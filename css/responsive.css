@@ -18,7 +18,8 @@
         --black: #13131a;
         --bg: #010103;
         --bg-teste: #00ff40;
-        --gradiente: linear-gradient(to right, #e24894, #000)
+        --gradiente: linear-gradient(to right, #e24893, #f18a1c);
+        --gradiente2: linear-gradient(to right, #e24893, #6f0c3c);
     }
 
     .interface {
@@ -57,7 +58,7 @@
 
     section.hero-site {
         height: 100vh;
-        background-image: url("/img/hero-bg-opacity60.png");
+        background-image: url("/img/hero-bg-opacity15.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -68,6 +69,10 @@
         display: flex;
         align-items: center;
         height: 100%;
+    }
+
+    .hero-site .img-hero img {
+        max-width: 350px;
     }
     
     .hero-site .txt-hero h1 {

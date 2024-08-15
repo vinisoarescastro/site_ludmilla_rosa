@@ -201,7 +201,7 @@ header .btn-menu-mob .line-menumob-2.ativo2 {
 
 header .menu-mobile {
     width: 0;
-    height: 0;
+    height: 50px;
     background-color: hsla(0, 0%, 0%, 0.99);
     position: absolute;
     top: 0;
