@@ -79,7 +79,10 @@
 
     .hero-site .img-hero-mobile img {
         display: block;
+        width: 100%;
+        height: auto;
         max-width: 350px;
+
         margin-top: 80px;
     }
     
@@ -136,11 +139,13 @@
         width: 100%;
     }
 
-    .minha-historia .itens-container .txt-itens p, 
-    .minha-historia .itens-container .txt-itens h3 {
+    .minha-historia .itens-container .txt-itens p {
         margin: 20px 10px;
+    } 
+    .minha-historia .itens-container .txt-itens h3 {
+        margin: 0px 10px;
     }
-    
+
     .minha-historia .itens-container .item-1 {
         order: 1;
     }
@@ -148,6 +153,7 @@
     .minha-historia .itens-container .item-2 {
         order: 0;
     }
+
 
 
     /**************************************
@@ -199,7 +205,7 @@
 
     .ajude-nos h3 span{
         display: block;
-        font-weight: 800;
+        font-weight: 400;
     }
 
     .ajude-nos p {
@@ -241,7 +247,7 @@
     
     .ajude-nos h3 span{
         display: block;
-        font-weight: 800;
+        font-weight: 400;
     }
     
     .ajude-nos p {
@@ -268,10 +274,17 @@
     }
     
     .propostas .txt-propostas h3 {
+        font-family: Panton;
         font-size: 2.5em;
         line-height: 40px;
     
         font-weight: 300;
+    }
+
+    .propostas .txt-propostas h3 span {
+        font-family: Heaters;
+        font-size: 80px;
+        font-weight: 400;
     }
     
     .propostas-box .itens-box {
@@ -301,4 +314,12 @@
         margin-bottom: 15px;
     }
     
+
+    /**************************************
+    *  Responsividade dos Contatos    *
+    ***************************************/
+
+    .contato .txt-contato h3 span {
+        font-weight: 400;
+    }
 }

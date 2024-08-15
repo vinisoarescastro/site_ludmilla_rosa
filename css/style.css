@@ -349,38 +349,6 @@ section.minha-historia {
     margin: 20px 0;
 }
 
-.minha-historia .itens-container .txt-itens.item-1 p {
-    margin-right: 20px;
-}
-
-.minha-historia .itens-container .txt-itens.item-1 {
-    max-height: 500px; /* Defina a altura máxima desejada */
-    overflow-y: auto; /* Adiciona a barra de rolagem vertical quando necessário */
-}
-
-/* Personalização da barra de rolagem para o elemento específico */
-.txt-itens.item-1::-webkit-scrollbar {
-    width: 8px; /* Largura da barra de rolagem */
-    height: 8px; /* Altura da barra de rolagem horizontal */
-}
-
-/* Estilo do trilho da barra de rolagem */
-.txt-itens.item-1::-webkit-scrollbar-track {
-    background: #fdd7ea; /* Cor do fundo do trilho */
-    border-radius: 10px; /* Bordas arredondadas do trilho */
-}
-
-/* Estilo da parte da barra de rolagem que se move (o "thumb") */
-.txt-itens.item-1::-webkit-scrollbar-thumb {
-    background: #e24893; /* Cor da parte movível da barra de rolagem */
-    border-radius: 10px; /* Bordas arredondadas do "thumb" */
-}
-
-/* Estilo da parte da barra de rolagem que se move quando o usuário passa o mouse sobre ela */
-.txt-itens.item-1::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Cor da parte movível ao passar o mouse */
-}
-
 .minha-historia .itens-container .img-itens img {
     max-width: 400px;
     max-height: 500px;
@@ -459,10 +427,11 @@ section.ajude-nos {
 
     display: block;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 100px;
 }
 
 .ajude-nos p {
+    font-family: Panton;
     margin: 10px 0;
     font-size: 20px;
     
@@ -583,7 +552,8 @@ section.propostas {
 }
 
 .propostas .txt-propostas h3 {
-    font-size: 3em;
+    font-family: Panton;
+    font-size: 2.5em;
     line-height: 50px;
 
     font-weight: 300;
@@ -591,8 +561,12 @@ section.propostas {
 
 .propostas .txt-propostas h3 span {
     display: block;
+    
+    font-family: Heaters;
+    font-size: 80px;
+    font-weight: 400;
 
-    font-weight: 800;
+    color: var(--color-principal);
 }
 
 .propostas-box .itens-box {
@@ -618,11 +592,8 @@ section.propostas {
     margin-bottom: 10px;
 }
 
-.propostas-box .itens-box h4 span{
-    font-weight: 300;
-}
-
-.propostas-box .itens-box p{
+.propostas-box .itens-box p {
+    font-family: Panton;
     font-size: 16px;
     line-height: 20px;
 }
