@@ -56,7 +56,7 @@ header .btn-contato button:hover, .hero-site button:hover, .ajude-nos button:hov
     background-image: var(--gradiente);
     /* background-color: var(--color-principal); */
     font-weight: bold;  /* Deixa o texto em negrito */
-    transition: 1s;     /* Tempo de transição */
+    transition: 0.4s;     /* Tempo de transição */
 }
 
 .hero-site button {
@@ -89,6 +89,10 @@ header .btn-contato button:hover, .hero-site button:hover, .ajude-nos button:hov
     background-image: var(--gradiente2);
     font-weight: 800;
     transition: 0.5s;
+}
+
+.ajude-nos button:hover {
+    background-image: var(--gradiente2);
 }
 
 
@@ -158,7 +162,7 @@ header .btn-contato button {
 header .btn-menu-mob {
     display: none;
     position: relative;
-    z-index: 9999;
+    z-index: 9999999;
 }
 
 header .btn-menu-mob div {
@@ -201,7 +205,7 @@ header .btn-menu-mob .line-menumob-2.ativo2 {
 
 header .menu-mobile {
     width: 0;
-    height: 50px;
+    height: 0;
     background-color: hsla(0, 0%, 0%, 0.99);
     position: absolute;
     top: 0;
@@ -256,7 +260,7 @@ body.no-overflow {
 ************************/
 
 section.hero-site {
-    height: 80vh;
+    height: 80vh;           /* Altura do elemento */
     background-image: url("../img/hero-bg-opacity15.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,7 +270,7 @@ section.hero-site {
 }
 
 .hero-site .img-hero img {
-    max-width: 450px;
+    max-width: 450px;       /* Largura máxima da imagem */
 }
 
 .hero-site .interface {
@@ -288,11 +292,11 @@ section.hero-site {
 
 .hero-site .txt-hero p {
     font-family: Panton;
-
-    max-width: 80%;             /* 50% do tamanho da tela */
-    margin: 0px 0px;
     font-size: 22px;            /* Tamanho da fonte */
     font-weight: 700;           /* Peso da fonte */
+
+    max-width: 80%;             /* 50% do tamanho da tela */
+    margin-bottom: 20px;        /* Espaçamento inferior */
     color: var(--color-black);
 }
 
@@ -300,6 +304,14 @@ section.hero-site {
     width: 220px;
     height: 60px;
 }
+
+
+/****************************
+*        Hero Mobile
+*****************************/
+
+
+
 
 /**************************** 
 * Estilo de Minha História  *
