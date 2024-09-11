@@ -622,7 +622,7 @@ footer .top-footer button{
     height: 60px;
     border-radius: 50%;
     border: 2px solid var(--color-write);
-    background-color: var(--color-laranja);
+    background-color: transparent;
     color: #fff;
     font-size: 24px;
     cursor: pointer;
@@ -640,9 +640,10 @@ footer .middle-footer {
     color: #fff;
 }
 footer .middle-footer a {
-    color: var(--color-laranja);
+    color:var(--color-write);
     font-weight: 600;
     text-decoration: none;
+    cursor: pointer;
 }
 
 footer .middle-footer a:hover {
