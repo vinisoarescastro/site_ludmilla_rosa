@@ -40,7 +40,7 @@ body {
 .interface { /* Centraliza o conteúdo da página */
     max-width: 1280px;  
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 header .btn-contato button, .hero-site button, .ajude-nos button {
