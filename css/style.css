@@ -54,7 +54,8 @@ header .btn-contato button, .hero-site button, .ajude-nos button {
 }
 
 header .btn-contato button:hover, .hero-site button:hover, .ajude-nos button:hover {
-    background-image: var(--gradiente);
+    background: var(--color-write);
+    color: var(--color-laranja);
     /* background-color: var(--color-principal); */
     font-weight: bold;  /* Deixa o texto em negrito */
     transition: 0.4s;     /* Tempo de transição */

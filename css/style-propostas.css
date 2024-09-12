@@ -54,7 +54,8 @@ header .btn-contato button, .hero-site button, .ajude-nos button {
 }
 
 header .btn-contato button:hover, .hero-site button:hover, .ajude-nos button:hover {
-    background-image: var(--gradiente);
+    background: var(--color-write);
+    color: var(--color-laranja);
     /* background-color: var(--color-principal); */
     font-weight: bold;  /* Deixa o texto em negrito */
     transition: 0.4s;     /* Tempo de transição */
@@ -142,7 +143,7 @@ PÁGINA EM MANUTENÇÃO
     height: 100%;
 }
 
-.site-manutencao .text {
+.site-manutencao .txt {
     text-align: center;
 }
 
@@ -154,3 +155,43 @@ PÁGINA EM MANUTENÇÃO
 .site-manutencao .img-manutencao {
     padding-right: 20px;
 }
+
+/*************************** 
+****************************
+*  Estilo Topo Propostas   *
+****************************
+****************************/
+
+.topo-propostas {
+    background-color: var(--color-secundaria);
+    padding: 20px 0;
+}
+
+.topo-propostas .interface {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.topo-propostas .txt h3{
+    font-family: Panton;
+    line-height: 0.7;
+
+    color: var(--color-terciaria)
+}
+
+.topo-propostas .txt span{
+    font-family: Heaters;
+    font-size: 80px;
+    font-weight: 400;
+
+    color: var(--color-principal);
+}
+
+
+/*************************** 
+****************************
+*     Estilo Propostas     *
+****************************
+****************************/
