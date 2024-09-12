@@ -223,7 +223,10 @@ PÁGINA EM MANUTENÇÃO
     font-size: 18px;
 
     margin: 0;
-    padding-left: 30px;
 
     color: var(--color-secundaria);
+}
+
+.propostas .items-propostas .txt ul {
+    padding-left: 20px;
 }
