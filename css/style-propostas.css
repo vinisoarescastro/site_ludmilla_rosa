@@ -195,3 +195,35 @@ PÁGINA EM MANUTENÇÃO
 *     Estilo Propostas     *
 ****************************
 ****************************/
+
+
+.propostas .txt h3 {
+    font-family: Heaters;
+    font-size: 60px;
+    font-weight: 400;
+
+    line-height: 0.7;
+
+    color: var(--color-secundaria);
+
+    margin: 30px 0 0px 0;
+}
+
+.propostas .txt p {
+    font-family: Panton;
+    font-size: 18px;
+
+    color: var(--color-secundaria);
+
+    margin: 10px 0 15px 0;
+}
+
+.propostas .items-propostas .txt ul p{
+    font-family: Panton;
+    font-size: 18px;
+
+    margin: 0;
+    padding-left: 30px;
+
+    color: var(--color-secundaria);
+}
