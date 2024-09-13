@@ -218,6 +218,15 @@ PÁGINA EM MANUTENÇÃO
     margin: 10px 0 15px 0;
 }
 
+.propostas .items-propostas {
+    display: flex;
+}
+
+.propostas .img-propostas img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
 .propostas .items-propostas .txt ul p{
     font-family: Panton;
     font-size: 18px;
