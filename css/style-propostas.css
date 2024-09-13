@@ -219,7 +219,24 @@ PÁGINA EM MANUTENÇÃO
 }
 
 .propostas .items-propostas {
+    background-color: #fff;
     display: flex;
+
+    border-radius: 15px;
+
+    padding: 0px 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    box-shadow: 10px 10px 20px #0000005d;
+}
+
+@media (max-width: 750px) {
+
+    .propostas .items-propostas {
+        flex-wrap: wrap;
+    }
+
 }
 
 .propostas .img-propostas img {
