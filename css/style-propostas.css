@@ -254,7 +254,6 @@ PÁGINA EM MANUTENÇÃO
 * Estilo dos Contatos  *
 ************************/
 
-
 section.contato {
     background-image: var(--gradiente);
     padding: 80px 0;
@@ -333,6 +332,7 @@ section.contato {
     font-family: Panton;
     font-size: 18px;
 }
+
 
 /***********************
 * Estilo do Rodapé     *

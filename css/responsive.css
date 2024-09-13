@@ -213,6 +213,10 @@
         margin: 20px 0;
     }
 
+    .contato .txt-contato h3 span {
+        font-weight: 400;
+    }
+
 
     /**************************************
     *  Responsividade dos ajude-nos       *
@@ -337,12 +341,4 @@
         margin-bottom: 15px;
     }
     
-
-    /**************************************
-    *  Responsividade dos Contatos    *
-    ***************************************/
-
-    .contato .txt-contato h3 span {
-        font-weight: 400;
-    }
 }

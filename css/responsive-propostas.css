@@ -31,4 +31,42 @@
         justify-content: center;
     }
 
+    /*********************************
+               Contato
+    *********************************/
+ 
+    .txt-contato, .icons-contato {
+        display: block;
+        width: 100%;
+    }
+    
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 35px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .contato .txt-contato h3 span{
+        display: block;
+        font-weight: 800;
+    }
+    
+    .contato .txt-contato p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    
+    .contato .icons-contato button {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .contato .txt-contato h3 span {
+        font-weight: 400;
+    }
+
 }
