@@ -1,5 +1,17 @@
 @media (max-width: 750px) {
 
+    /*********************************
+            Section Manutenção
+    *********************************/
+
+    section.site-manutencao {
+        display: none;
+    }
+
+    /*********************************
+               Propostas
+    *********************************/
+
     .propostas .items-propostas {
         flex-wrap: wrap;
     }
@@ -17,8 +29,6 @@
         display: flex;
         width: 100%;
         justify-content: center;
-
-        
     }
 
 }
