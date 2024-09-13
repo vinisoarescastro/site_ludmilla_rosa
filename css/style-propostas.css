@@ -131,6 +131,7 @@ PÁGINA EM MANUTENÇÃO
 ***************************/
 
 .site-manutencao {
+    display: none;  /* No momento está retirado */
     background-color: red;
     color: #fff;
 
@@ -231,16 +232,8 @@ PÁGINA EM MANUTENÇÃO
     box-shadow: 10px 10px 20px #0000005d;
 }
 
-@media (max-width: 750px) {
-
-    .propostas .items-propostas {
-        flex-wrap: wrap;
-    }
-
-}
-
 .propostas .img-propostas img {
-    max-width: 300px;
+    max-width: 350px;
     margin-right: 20px;
 }
 
@@ -255,4 +248,142 @@ PÁGINA EM MANUTENÇÃO
 
 .propostas .items-propostas .txt ul {
     padding-left: 20px;
+}
+
+/*********************** 
+* Estilo dos Contatos  *
+************************/
+
+
+section.contato {
+    background-image: var(--gradiente);
+    padding: 80px 0;
+}
+
+.txt-contato, .icons-contato {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.contato .txt-contato h3 {
+    font-family: Panton;
+    font-size: 2.5em;
+    line-height: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.contato .txt-contato h3 span {
+    font-family: Heaters;
+    display: block;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 50px;
+}
+
+.contato .txt-contato p {
+    font-family: Panton;
+    font-size: 18px;
+}
+
+.contato .icons-contato a {
+    text-decoration: none;
+}
+
+.contato .icons-contato button {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 15px auto;
+    padding: 0 60px;
+
+    background: transparent;
+    border: 2px solid var(--color-write);
+    border-radius: 15px;
+    cursor: pointer;
+    color: var(--color-write);
+
+    transition: 0.5s;
+}
+
+.contato .icons-contato button i {
+    font-size: 20px;
+    color: var(--color-write);
+    margin-right: 20px;
+}
+
+.contato .icons-contato button:hover {
+    background-color: var(--color-write);
+
+}
+
+.contato .icons-contato button:hover i, .contato .icons-contato button:hover {
+    color: var(--color-black);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.contato .icons-contato button p {
+    font-family: Panton;
+    font-size: 18px;
+}
+
+/***********************
+* Estilo do Rodapé     *
+************************/
+
+footer {
+    background-color: #16192e;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .top-footer button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--color-write);
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+footer .top-footer button:hover {
+    background-color: var(--color-principal);
+    color: #fff;
+}
+
+footer .middle-footer {
+    margin: 20px 0;
+    color: #fff;
+}
+footer .middle-footer a {
+    color:var(--color-write);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer .middle-footer a:hover {
+    color: var(--color-principal);
+    font-weight: 900;
+}
+
+footer .bottom-footer {
+    border-top: 2px solid #fff;
+}
+
+footer .bottom-footer p {
+    margin-top: 10px;
+    color: #fff;
 }

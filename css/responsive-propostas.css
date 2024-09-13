@@ -1,0 +1,24 @@
+@media (max-width: 750px) {
+
+    .propostas .items-propostas {
+        flex-wrap: wrap;
+    }
+
+    .propostas .items-propostas .txt {
+        padding: 0px 10px;
+    }
+
+    .propostas .items-propostas .txt h3 {
+        margin-top: 0px; 
+        margin-bottom: 10px;  
+    }
+
+    div.img-propostas {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        
+    }
+
+}
