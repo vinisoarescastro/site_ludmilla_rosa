@@ -167,6 +167,10 @@ PÁGINA EM MANUTENÇÃO
 ****************************
 ****************************/
 
+section.header-mobile {
+    display: none;
+}
+
 .topo-propostas {
     background-color: var(--color-secundaria);
     padding: 20px 0;
