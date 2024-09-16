@@ -1,11 +1,66 @@
 @media (max-width: 750px) {
 
+    :root {
+        --color-principal: #e24894;
+        --color-secundaria: #18182f;
+        --color-terciaria: #f9f8f8;
+        --color-laranja: #f18a1c;
+        --color-write: #fff;
+        --color-black: #000;
+        --black: #13131a;
+        --bg: #010103;
+        --bg-teste: #00ff40;
+        --gradiente: linear-gradient(to right, #e24893, #f18a1c);
+        --gradiente2: linear-gradient(to right, #e24893, #6f0c3c);
+    }
+    
+    * { /* Reseta o CSS  de todos os elementos */            
+        margin: 0;      
+        padding: 0;
+        box-sizing: border-box; /* Faz com que a largura e altura do elemento seja a soma do conteúdo, padding e borda */
+        font-family: "Open Sans", sans-serif;
+    }
+
+    /*********************************
+            Section Header
+    *********************************/
+
+    header {
+        display: none;
+    }
+
+    header.header-mobile {
+        display: flex;
+    }
+
+    section.header-mobile {
+        background: var(--gradiente);
+    }
+
+    .header-mobile .img-header-mobile {
+        text-align: center;
+    }
+
+    .header-mobile .img-header-mobile img {
+        max-width: 140px;
+    }
+
+
     /*********************************
             Section Manutenção
     *********************************/
 
     section.site-manutencao {
         display: none;
+    }
+
+
+    /*********************************
+             Topo Propostas
+    *********************************/
+
+    .topo-propostas {
+        padding: 40px 0;
     }
 
     /*********************************

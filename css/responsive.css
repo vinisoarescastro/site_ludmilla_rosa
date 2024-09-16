@@ -25,7 +25,7 @@
     .interface {
         margin: 0 10px;
     }
-    
+
     /******************************
     *  Responsividade do header   *
     *******************************/
@@ -53,6 +53,10 @@
         max-width: 60px;
     }
 
+    .hero-site .btn-hero-mobile button {
+        display: block;
+        text-decoration: none;
+    }
 
     /******************************
     *  Responsividade Divisoria   *

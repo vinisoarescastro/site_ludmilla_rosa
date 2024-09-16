@@ -66,6 +66,10 @@ header .btn-contato button:hover, .hero-site button:hover, .ajude-nos button:hov
 *  Estilo dos Header   *
 ************************/
 
+header.header-mobile {
+    display: none;
+}
+
 header {
     width: 100%;        /* Largura do elemento */
     padding: 1px 0px;   /* Espaçamento interno do elemento */

@@ -68,6 +68,10 @@ header .btn-contato button:hover, .hero-site button:hover, .ajude-nos button:hov
     font-weight: bold;
 }
 
+.hero-site .btn-hero-mobile button {
+    display: none;
+}
+
 .hero-site button:hover {
     background-image: var(--gradiente2);
     font-size: 18px;
