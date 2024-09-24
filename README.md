@@ -1,4 +1,4 @@
-[![My Skills](https://skillicons.dev/icons?i=css,html,github,git,vscode,figmar&perline=3)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=css,html,github,git,vscode,figma&perline=3)](https://skillicons.dev)
 
 # Ludmila Rosa - Site Oficial
 
