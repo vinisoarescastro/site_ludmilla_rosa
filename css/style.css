@@ -507,6 +507,24 @@ section.propostas {
     padding: 20px;
 }
 
+#btn-propostas {
+    background-color: var(--color-principal);
+}
+
+#btn-propostas:hover {
+    background-image: var(--gradiente);
+}
+
+#btn-propostas a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+#btn-propostas a h3{
+    padding: 0 0 0 30px;
+}
+
 .propostas-box .itens-box .img-itens-box img {
     max-width: 100px;
 
