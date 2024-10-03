@@ -61,10 +61,14 @@
         justify-content: center;
     }
 
-    .hero-site .btn-hero-mobile button {
+    .hero-site .btn-hero-mobile button,
+    .hero-site .btn-hero-mobile a {
         display: block;
         text-decoration: none;
+    }
 
+    .hero-site .txt-hero .img-hero {
+        display: none;
     }
 
     /******************************
