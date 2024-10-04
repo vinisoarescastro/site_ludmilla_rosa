@@ -17,10 +17,14 @@ Este repositório contém o código-fonte do site oficial da pré-candidata a ve
 - **Bootstrap**
 - **HTML**
 - **CSS**
+- **JavaScript**
 
 ## Desenvolvido por
 
 Vinicius Soares Castro
+Bacharelando em Engenharia de Software
+Instituto de Informática, INF.
+Universidade Federal de Goiás, UFG.
 
 ## Licença
 
