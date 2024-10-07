@@ -71,7 +71,7 @@
 .modal-content p {
     padding-bottom: 15px;
     font-family: Panton, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
     line-height: 15px;
 }
@@ -100,8 +100,9 @@
 }
 
 .modal-content .ass-lud {
-    font-size: 14px;
-    font-weight: 1000;
+    font-family: Panton, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
     background-clip: var(--gradiente); /* sem efeito */
     background: var(--gradiente);
     -webkit-background-clip: text;
