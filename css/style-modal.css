@@ -32,7 +32,7 @@
     box-shadow: 3px 3px 50px 0px rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 20px;
-    width: 450px;
+    width: 500px;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .modal-content img {
-    width: 100px;
+    width: 200px;
     margin-bottom: 15px;
 }
 
