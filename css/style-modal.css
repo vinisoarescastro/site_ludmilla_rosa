@@ -114,8 +114,8 @@
 .modal-content img {
     width: 200px;
     margin-bottom: -40px;
-    position: relative; /* Para controle de z-index */
-    z-index: 1; /* Coloca a imagem à frente do texto */
+    position: relative; 
+    z-index: 1; 
 }
 
 .modal-btns {
